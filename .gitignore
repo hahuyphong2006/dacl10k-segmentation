@@ -1,0 +1,37 @@
+# Python bytecode & packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE configs
+.vscode/
+.idea/
+
+# Weights & Biases
+wandb/
+
+# Datasets
+data/
+datasets/
+
+# Model weights, checkpoints & outputs
+*.pt
+*.pth
+*.onnx
+*.engine
+checkpoints/
+outputs/
+
+# Testing & linting caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
